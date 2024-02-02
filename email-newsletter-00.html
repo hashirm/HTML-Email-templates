@@ -396,6 +396,9 @@ PRESERVE THESE STYLES IN THE HEAD
           margin-top: 220px !important;
           margin-left: 0px !important;
         }
+        .footer-emptycell-dnone {
+          display: none !important;
+        }
       }
 
       .table_social_one a {
@@ -991,15 +994,16 @@ PRESERVE THESE STYLES IN THE HEAD
                 </tr>
                 <tr>
                   <td style="background-color: #d10019" colspan="2">
-                    <table style="width: 100%; color: #fff; padding: 27px 26px">
+                    <table style="width: 100%; padding: 27px 26px">
                       <tr>
-                        <td style="vertical-align: top">
+                        <td class="row-block" style="vertical-align: top">
                           <p
                             style="
                               margin-top: 0;
                               margin-bottom: 5px;
                               font-weight: bold;
                               font-size: 16px;
+                              color: #fff;
                             "
                           >
                             ADV PAX Lutec GmbH
@@ -1014,18 +1018,29 @@ PRESERVE THESE STYLES IN THE HEAD
                           >
                             Vogelsangstr. 34
                           </p>
-                          <p style="font-size: 16px; margin-top: 3px">
+                          <p
+                            style="
+                              font-size: 16px;
+                              margin-top: 3px;
+                              color: #fff;
+                            "
+                          >
                             D-72581 Dettingen / Erms
                           </p>
                         </td>
-                        <td width="120" style="padding-bottom: 10px"></td>
-                        <td>
+                        <td
+                          class="footer-emptycell-dnone"
+                          width="120"
+                          style="padding-bottom: 10px; display: table-cell"
+                        ></td>
+                        <td class="row-block">
                           <p
                             style="
                               text-align: left;
                               margin-top: 0;
                               margin-bottom: 7px;
                               font-size: 16px;
+                              color: #fff;
                               white-space: nowrap;
                             "
                           >
@@ -1037,6 +1052,8 @@ PRESERVE THESE STYLES IN THE HEAD
                               margin-top: 0;
                               margin-bottom: 7px;
                               font-size: 16px;
+                              color: #fff;
+                              white-space: nowrap;
                             "
                           >
                             FAX: +49(0)7123/38007-50
@@ -1047,6 +1064,7 @@ PRESERVE THESE STYLES IN THE HEAD
                               margin-top: 0;
                               margin-bottom: 7px;
                               font-size: 16px;
+                              color: #fff;
                             "
                           >
                             E-Mail:
